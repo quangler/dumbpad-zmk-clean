@@ -5,7 +5,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v3.5
-      import: app/west.yml
+      revision: main
+      import: 
+        file: app/west.yml
+        name-blocklist:
+          - mechwild
   self:
     path: config
