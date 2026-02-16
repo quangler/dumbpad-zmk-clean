@@ -1,0 +1,2 @@
+config SHIELD_QUINN
+    def_bool $(shields_list_contains,quinn)
