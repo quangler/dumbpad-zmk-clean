@@ -9,3 +9,5 @@ manifest:
       import: app/west.yml
   self:
     path: config
+    # THIS IS THE MISSING MAGIC LINE:
+    board-root: .
